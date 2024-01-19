@@ -1,0 +1,3 @@
+nếu nums[low] < nums[mid] thì khoảng từ low -> mid các giá trị số tăng dần bth thì sẽ ưu tiên xét trước 
+
+nếu nums[low] > nums[mid] thì khoảng từ low -> mid lúc này biết chắc chắn rằng khoảng này không sắp xếp tăng dần nên ưu tiên khoảng còn lại (mid -> high) 
